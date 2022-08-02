@@ -21,7 +21,7 @@ To use, run `node index.js` to start the app.
 
 ## Install
 
-When you have this project, run `npm install` to install the dependiences in the packagejson file.
+When you have this project, run `npm install` to install the dependences in the packagejson file.
 
 ## Contributing
 
