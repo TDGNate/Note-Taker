@@ -63,7 +63,6 @@ app.post('/api/notes', (req, res) => {
 
       // pushing user's new note into variable database 
       notesObj.push(newNote)
-      // console.log(`It has been written! \n ${notesObj}`)
 
       fs.writeFile('./db/db.json', JSON.stringify(notesObj), err => { err ? console.log(err) : console.log('Database Updated!') })
     }
